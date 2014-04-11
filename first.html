@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>first page</title>
+    <meta http-equiv="CONTENT-TYPE" content="text/html" charset="utf-8">
+    <!--<meta http-equiv="refresh" content="5; url=pre.html" >-->
+    <link rel="stylesheet" type="text/css" href="first.css"> <!--bla-bla-bla-->
+</head>
+<body>
+     <h1 id="header">The first try</h1>
+     <a href="http://vk.com"><img src="alarm.jpg" alt="Alarm" align="right" hspace="40" vspace="10"></a>
+    <p id="p1">
+        Флексагон представляет собой бумажную фигуру, которая имеет
+        три и более стороны. Поначалу кажется, что это невозможно, но вспомните
+        ленту Мёбиуса, она ведь имеет всего одну сторону, в отличие от листа  бумаги,
+        и, тем не менее, реальна. Так же реален и флексагон, который легко сделать и
+        склеить в домашних условиях. Он выглядит как двухсторонний шестиугольник, но
+        стоит согнуть его особым образом, и мы увидим третью сторону. Легко убедиться,
+        что мы имеем дело именно с тремя сторонами, если раскрасить их в разные цвета.
+        Перегибая флексагон, по очереди будем наблюдать все его поверхности
+    </p>
+    <h3 align="center" >10 лучших книг по версии BBC</h3>
+        <ol start="2">
+            <li><b>«Властелин колец» — Джон Р. Р. Толкин[2]</b></li>
+            <li><i>«Гордость и предубеждение» — Джейн Остин</i></li>
+            <li>«Тёмные начала» — Филип Пулман</li>
+            <li>«Автостопом по галактике» — Дуглас Адамс</li>
+            <li>«Гарри Поттер и Кубок огня» — Джоан Роулинг</li>
+            <li>«Убить пересмешника» — Харпер Ли</li>
+            <li>«Винни-Пух и все-все-все» — Алан Милн</li>
+            <li>«1984» — Джордж Оруэлл</li>
+            <li>«Лев, колдунья и платяной шкаф» — Клайв Стэйплз Льюис</li>
+            <li>«Джейн Эйр» — Шарлотта Бронте</li>
+        </ol>
+     <ul type="circle">
+         <li>«Властелин колец» — Джон Р. Р. Толкин[2]</li>
+         <li>«Гордость и предубеждение» — Джейн Остин</li>
+         <li>«Тёмные начала» — Филип Пулман</li>
+         <li>«Автостопом по галактике» — Дуглас Адамс</li>
+         <li>«Гарри Поттер и Кубок огня» — Джоан Роулинг</li>
+         <li>«Убить пересмешника» — Харпер Ли</li>
+         <li>«Винни-Пух и все-все-все» — Алан Милн</li>
+         <li>«1984» — Джордж Оруэлл</li>
+         <li>«Лев, колдунья и платяной шкаф» — Клайв Стэйплз Льюис</li>
+         <li>«Джейн Эйр» — Шарлотта Бронте</li>
+     </ul>
+
+
+    <p><a href="files/time.pdf">Скачать полный список в формате PDF</p>
+    <p><a href="#header">Перейти к началу статьи</p>
+    <p><a href="mailto:olka.zp@gmail.com">Связаться с автором статьи</a></p> <!--не получилось-->
+
+    <form action="formdata.php" method="GET" name="form1">
+        <fieldset>
+            <legend>Ввод личных данных</legend>
+        <p><label> Введите ваше имя: <input type="text" name="name" size="30"></label></p>
+        <p><label> Введите ваш пароль: <input type="password" name="password" size="30"></label></p>
+        <p>Экономите ли вы время? <label>да<input type="radio" name="time" value="yes" checked>
+           <label>нет<input type="radio" name="time" value="no"></label></p>
+       </fieldset>
+        <p>Как экономите время?</p>
+           <p><label><input type="checkbox" name="ez" checked>Ежедневник</label>
+              <label><input type="checkbox" name="hr">Хронометраж</label>
+              <label><input type="checkbox" name="sv">Свой вариант</label>
+           </p>
+
+        <p>Сколько часов вы спите?</p>
+        <p>
+            <select name="sleep" size="1">
+                <option>5</option>
+                <option>6</option>
+                <option value="seven">7</option>
+                <option selected>8</option>
+                <option>8+</option>
+            </select>
+        </p>
+        <fieldset>
+        <legend>Обратная связь</legend>
+        <p><b><label for="textarea">Поделитесь своими наработками:</label></b></p>
+        <p><textarea name="textarea" cols="50" rows="6" id="textarea">Пишите здесь...</textarea></p>
+
+        <p><input type="reset" value="Очистить"><input type="submit" name="submit" value="Отправить"></p>
+        <p><input type="image" src="images/ibutton.png" name="imgButton"></p>
+        <p><input type="button" value="Кнопка" name="Button"></p>
+        </fieldset>
+    </form>
+     <img src="images/time.jpg" alt="Watch sale" border="1" hspace="0" vspace="20" usemap="#forTime">
+        <map id="forTime" name="forTime">
+            <area href="http://photoshop-master.ru" alt="Photoshop-master" shape="rect" coords="43,15,287,79" target="_blank">
+            <area href="http://ruseller.com" shape="rect" coords="311,15,554,78" target="_blank">
+        </map>
+
+
+</body>
+</html>
